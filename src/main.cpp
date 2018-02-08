@@ -90,46 +90,6 @@ bool isMaskPixel(unsigned int x, unsigned int y) {
 	return maskImage.data[maskFlatten(x, y)][0] > 0.99;
 }
 
-/*
-#define TARGET "img/library1.png"
-#define SOURCE "img/sleepcat1.png"
-#define MASK "img/catmask.png"
-int mx = 150;
-int my = 210;
-*/
-
-/*
-#define TARGET "img/library.png"
-#define SOURCE "img/kitten.png"
-#define MASK "img/kittenmask.png"
-unsigned int mx = 280;
-unsigned int my = 340;
-*/
-
-/*
-#define TARGET "img/gothenburg.png"
-#define SOURCE "img/moon.png"
-#define MASK "img/moonmask.png"
-int mx = 400;
-int my = 30;
-*/
-
-/*
-#define TARGET "img/pompeii.png"
-#define SOURCE "img/navier.png"
-#define MASK "img/naviermask.png"
-int mx = 300;
-int my = 506;
-*/
-
-/*
-#define TARGET "img/orange.png"
-#define SOURCE "img/trump.png"
-#define MASK "img/trumpmask.png"
-int mx = 351;
-int my = 114;
-*/
-
 // compute image gradient.
 float vpq(
 	float fpstar, float fqstar,
